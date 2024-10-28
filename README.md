@@ -1,2 +1,8 @@
 Flight Predictor | 
 CIS 662 IML Spring 2024 Sem project
+
+This project develops a predictive model to determine the timeliness—categorized as early, on-time, or late—of flights arriving in Syracuse (SYR) from Chicago (ORD), New York (JFK), and Orlando (MCO). Utilizing a dataset comprising approximately 7,475 records from the Bureau of Transportation Statistics (BTS) for the period from January 2022 to December 2023, this study integrates essential flight information with hourly weather data sourced from visualcrossing.com. The inclusion of weather data is crucial, as it allows for an in-depth examination of environmental impacts on flight schedules.
+
+Extensive data preprocessing was performed to ready the dataset for analysis, which included handling missing values, applying one-hot encoding to categorical variables, and employing Principal Component Analysis (PCA) for dimensionality reduction. PCA was specifically implemented to explore whether a reduction in feature space could lead to improved model accuracy.
+
+The predictive modeling involved advanced machine learning algorithms such as Gradient Boosting, XGBoost, and Random Forests, with a focus on using regularization techniques to prevent overfitting. This project employs a classifier model, and performance was rigorously evaluated based on accuracy, alongside precision, recall, and F1-score to ensure a comprehensive assessment. This study demonstrates a robust analytical framework for predicting flight arrival times by integrating comprehensive flight and hourly weather data, laying a solid foundation for future enhancements to boost prediction reliability and applicability.
